@@ -19,7 +19,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "lint": "solhint --fix contracts/**/*.sol"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
   "homepage": "https://github.com/hamdiallam/solidity-rlp#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "rlp": "^2.2.6"
+    "rlp": "^2.2.6",
+    "solhint": "^3.3.7"
   }
 }
